@@ -1,0 +1,227 @@
+body {
+  background-color: #fffbea;
+}
+.navbar .fa-utensils {
+  background-color: #ff5605;
+  color: white;
+}
+.navbar i {
+  color: #4a5565;
+  transition: 0.3s;
+}
+.navbar p {
+  color: #6a72a2;
+}
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+  margin-left: 5px;
+  border: #ff5605 1px solid;
+}
+.navbar li i:hover {
+  color: #ff5605;
+}
+.inner-item img {
+  border-top-left-radius: 16px;
+  border-end-start-radius: 16px;
+  height: 700px;
+}
+.inner-item2 {
+  background-color: white;
+}
+.inner-item2 .green {
+  color: #008c74;
+  background-color: #dbfce7;
+  border-radius: 16px;
+  font-size: 14px;
+}
+.inner-item2 .blue {
+  color: #3447e6;
+  background-color: #dbeafe;
+  border-radius: 16px;
+  font-size: 14px;
+}
+.inner-item2 P {
+  color: #4a5565;
+  font-size: 16px;
+}
+.icons i {
+  color: #ff5605;
+  background-color: #ffedd4;
+  border-radius: 12px;
+  width: fit-content;
+}
+.overflow-y-scroll {
+  height: 700px;
+}
+.box1 {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 22px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.box1 i {
+  color: #fdc700;
+}
+.box1 .ll {
+  color: #4a5565;
+  font-size: 14px;
+}
+.box2 {
+  background-color: white;
+  padding: 20px 5px;
+  border-radius: 22px;
+  margin-bottom: 20px;
+}
+.box2 .icon1 {
+  color: #ff6900;
+}
+.box2 .icon2 {
+  color: #fb2c36;
+}
+.box2 .icon3 {
+  color: #2b7fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-bottom: #ff5605 2px solid;
+  border-radius: 0;
+  --bs-nav-pills-link-active-color: #ff5605;
+  --bs-nav-pills-link-active-bg: transparent;
+}
+.nav-item:focus .nav-link {
+  border-bottom: #ff5605 2px solid;
+  border-radius: 0;
+}
+.nav-link {
+  color: #4a5565;
+  font-size: 16px;
+}
+.nav-link:hover {
+  color: #364153;
+}
+.tab-pane {
+  border-top: 1px solid rgba(128, 128, 128, 0.24);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+}
+.inner10 {
+  background-color: #fff8ec;
+  border-radius: 12px;
+  color: black;
+}
+.s {
+  margin-top: 15px;
+}
+.ball {
+  background-color: #ff6800;
+  padding: 0;
+  border-radius: 50%;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 10px;
+  margin-right: 10px;
+}
+.inner11 {
+  overflow-y: scroll;
+  color: #4a5565;
+  height: 250px;
+  margin-bottom: 50px;
+}
+.nutri-card {
+  background: #f9fafb;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nutri-icon {
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.icon-calories {
+  background: #ffe8d6;
+  color: #ff7a00;
+}
+.icon-protein {
+  background: #e3eaff;
+  color: #2a65ff;
+}
+.icon-carbs {
+  background: #fff3d4;
+  color: #d89d00;
+}
+.icon-fat {
+  background: #ffe4e4;
+  color: #ff3131;
+}
+.icon-fiber {
+  background: #e3ffe3;
+  color: #1dbf47;
+}
+.icon-sodium {
+  background: #ffe3f7;
+  color: #ff3ea5;
+}
+
+.nutri-label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nutri-value {
+  font-size: 18px;
+  font-weight: 700;
+}
+.tip-card {
+  background: #fffaef;
+  border-radius: 20px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border-left: 6px solid #FFB900;
+}
+
+.tip-icon {
+  background: #E17100;
+  color: #fff;
+  font-size: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.s2 {
+  color: white;
+  background-color: #ff6900;
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+.sss {
+  color: white !important;
+  border-radius: 0;
+  background-image: linear-gradient(to right, #ff6800, #fb3034);
+  border-radius: 12px !important;
+  padding: 10px 20px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.sss:hover {
+  background-image: linear-gradient(#fb3034);
+  transform: scale(1.09);
+}
+img {
+  width: 100%;
+}
