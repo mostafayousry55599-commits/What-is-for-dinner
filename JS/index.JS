@@ -1,7 +1,7 @@
 const recipes = [
   {
     name: "Caprese Sandwich",
-    image: "caprese.jpg.jpg",
+    image: "/.caprese.jpg.jpg",
     rating: 4.5,
     reviews: 189,
     prep: "10 min",
@@ -40,7 +40,7 @@ const recipes = [
   },
     {
     name: "Grilled Chicken Pesto Panini",
-    image: "chicken_pesto_panini.jpg.jpg",
+    image: "/.chicken_pesto_panini.jpg.jpg",
     rating: 4.8,
     reviews: 342,
     prep: "15 min",
@@ -72,7 +72,7 @@ const recipes = [
 
   {
     name: "Classic Tuna Melt",
-    image: "tuna_melt.jpg.jpg",
+    image: "/.tuna_melt.jpg",
     rating: 4.3,
     reviews: 221,
     prep: "10 min",
@@ -104,7 +104,7 @@ const recipes = [
 
   {
     name: "Turkey Avocado Club",
-    image: "turkey_avocado_club.jpg.jpg",
+    image: "/.turkey_avocado_club.jpg.jpg",
     rating: 4.7,
     reviews: 410,
     prep: "12 min",
@@ -137,7 +137,7 @@ const recipes = [
   },
   {
     name: "Egg Salad Sandwich",
-    image: "egg_salad.jpg.jpg",
+    image: "/.egg_salad.jpg.jpg",
     rating: 4.4,
     reviews: 198,
     prep: "12 min",
